@@ -1,4 +1,4 @@
-# Portfolio Site
+o# Portfolio Site
 
 A simple portfolio site built in the `git-practice` folder.
 
@@ -12,5 +12,6 @@ A simple portfolio site built in the `git-practice` folder.
 
 Open `index.html` in a browser to see the portfolio site.
 
-#gir practice - main branch 
- 
+
+#git is powerful 
+
