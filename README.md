@@ -12,4 +12,5 @@ A simple portfolio site built in the `git-practice` folder.
 
 Open `index.html` in a browser to see the portfolio site.
 
-# git is powerful 
+#gir practice - main branch 
+ 
