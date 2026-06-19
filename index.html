@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Git Practice</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand">A. Kumar</a>
+        <button class="nav-toggle" aria-label="Open navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-content">
+          <p class="eyebrow">Web portfolio</p>
+          <h1>Crafting polished websites with clarity and care.</h1>
+          <p>
+            I design and build responsive web experiences for individuals and
+            small teams. Explore my recent work, skills, and ways to connect.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container section-grid">
+          <div>
+            <h2>About me</h2>
+            <p>
+              I’m a web developer focused on clean interfaces, accessible
+              layouts, and maintainable front-end code. My work blends
+              visual design with modern HTML, CSS, and JavaScript.
+            </p>
+            <p>
+              I enjoy turning ideas into usable products and keeping things
+              simple, fast, and user-friendly.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div>
+              <strong>5+</strong>
+              <span>Projects completed</span>
+            </div>
+            <div>
+              <strong>Responsive</strong>
+              <span>Design-first approach</span>
+            </div>
+            <div>
+              <strong>Modern stack</strong>
+              <span>HTML, CSS, JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="section-header">
+            <h2>Featured projects</h2>
+            <p>Recent work that demonstrates thoughtful design and strong execution.</p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <h3>Portfolio Refresh</h3>
+              <p>
+                A modern one-page portfolio with responsive layout, dark mode,
+                and smooth navigation.
+              </p>
+              <span>HTML / CSS / JavaScript</span>
+            </article>
+            <article class="project-card">
+              <h3>Landing Page</h3>
+              <p>
+                A clean landing page template built for conversion-focused
+                messaging and mobile-first usability.
+              </p>
+              <span>Responsive design</span>
+            </article>
+            <article class="project-card">
+              <h3>Interactive UI</h3>
+              <p>
+                Small interactions and animations designed to improve clarity
+                and delight in everyday web experiences.
+              </p>
+              <span>Accessible interactions</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="container section-grid">
+          <div>
+            <h2>Skills</h2>
+            <p>
+              I work primarily on front-end interfaces with a focus on
+              performance, accessibility, and responsive design.
+            </p>
+          </div>
+          <div class="skill-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive Layout</span>
+            <span>UX Design</span>
+            <span>Version Control</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <h2>Let’s connect</h2>
+            <p>
+              Interested in collaborating on a website or want to learn more?
+              Send a message and I’ll get back to you.
+            </p>
+          </div>
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="Your email" />
+            </label>
+            <label>
+              Message
+              <textarea rows="5" placeholder="Tell me about your project"></textarea>
+            </label>
+            <button type="submit" class="button button-primary">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> A. Kumar. Built with web standards and care.</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
